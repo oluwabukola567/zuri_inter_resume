@@ -12,10 +12,9 @@
         list-style-type: none;
     }
     label{
-        font-size: 0.90em;
-        margin: 20px 20px 20px 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+        
+        margin: 10px 20px 20px 10px;
+        }
     input{
         box-sizing: border-box;
         margin: 10px 20px 20px 10px;
@@ -25,43 +24,79 @@
         margin: 20px 20px 20px 20px;
    
     }
-</style>
+    .textt{
+        font-size: 20px;
+    }
+    h3{
+        margin: 10px 20px 20px 10px;  
+    }
+   </style>
 <body>
-    <header><h2>OGUNLOWO OLUWABUKOLA ELIZABETH</h2></header>
-    <form method="post" action="" >
-        <label class="">Fullname</label>
-        
-        <input type="text" class="" name="fname"><br/>
-        
-        <label>Personal Information</label><br/>
+    <img src="IMG-20210820-WA0021.jpg">
+    <header><h2><label>Personal Information</label></h2></header><br/>
+    <h3>Ogunlowo Oluwabukola Elizabeth</h3><br/>
+    <h3>Backend Developer</h3><br/>
+    <p class="textt"> I am an enthusiastic backend developer seeking for internship to improve my skills</p><br/>
 <ul>
-            <li><label>Email</label>
-                <input type="email" class="" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="">We'll never share your email with anyone else.</small>
+<li class="details">
+<label>Email:</label>
+                <p>oeogunlowo@student.oauife.ng</p><br/>
+</li>
+<li>
+<label>Phone Number:</label>
+                <p>08144036165</p><br/>
+</li>
+<li>
+<label>Github:</label>
+                <p>https://github.com/oluwabukola567</p><br/>
+</li>
+<li>
+<label>LinkedIn:</label>
+<p>www.linkedin.com/in/oluwabukola-elizabeth-11a885182</p><br/>
+</li>
+<h3>SKILLS</h3>
+<ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Nodejs</li>
+    <li>PHP</li>
+    <li>MongoDB</li>
+    <li>Microsoft Access</li>
+    <li>MySql</li>
+    <li>jQuery</li>
+    
+
+</ul>
+<h3> EXPERIENCE</h3>
+<ul>
+    <li>Intern at Trace media ltd</li>
+</ul>
+<h3>EDUCATION</h3>
+<ul>
+    <li>National Diploma in computer Science<br/>
+    Federal school of Statistics
+</li>
+<li>Bsc in computer Science with mathematics<br/>
+    Obafemi Awolowo University
+</li>
+</ul>
+
+    <form method="post" action="" >    
+        <fieldset>  
+            <legend>Contact form</legend>
+<ul>
+            <li><label>Email:</label>
+            <input type="email"class="" required></li><br/> 
             <li><label>Phone Number</label>
             <input type="number"class="" required></li><br/>
-            <li><label>Github </label>
-            <input type="text"class="" required></li><br/>
-            <li><label>LinkedIn</label>
-            <input type="text"class="" required></li><br/>
+            <li><label>Subject </label>
+            <input type="text" class="" required></textarea></li><br/>
+            <li><label>Messages</label>
+            <input type="textarea"class="" required></li><br/>
         </ul>
-<label>Work experience</label>
-<input type="text" class=""></textarea><br/>
-<label>Education</label>
-<select class="">
-    <option value="Bsc">BSc</option>
-    <option value="Hnd">Hnd</option>
-    <option value="ND">ND</option>
-    <option value="Msc">MSc</option>
-    
-</select><br/>
-<label>Skills</label>
-<input type="text" class="" rows="6"></textarea><br/>
-<label>Membership</label>
-<input type="text" class=""><br/>
-<label>Awards</label>
-<input type="text"class=""><br/>
 <button type="submit" name="submit">Submit</button>
+</fieldset>
 </div>
     </form>
 
